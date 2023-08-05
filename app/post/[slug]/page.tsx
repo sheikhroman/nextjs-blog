@@ -1,5 +1,6 @@
 import { Post } from "@/app/lib/interface";
 import { client } from "@/app/lib/sanity";
+import { urlFor } from "@/app/lib/sanityImage";
 import { PortableText } from "@portabletext/react";
 
 async function getData(slug: string) {
