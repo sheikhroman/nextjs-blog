@@ -32,7 +32,7 @@ export default async function IndexPage() {
               </div>
 
               <Link
-                href={`/post/${post.slug.current}`}
+                href={`/Post/${post.slug.current}`}
                 prefetch
                 className="space-y-3 xl:col-span-3"
               >
