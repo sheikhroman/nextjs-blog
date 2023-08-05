@@ -29,7 +29,11 @@ export default async function IndexPage() {
                   })}
                 </p>
               </div>
-              <Link href={`/post/${post.slug.current}`} prefetch className="space-y-3 xl:col-span-3">
+              <Link
+                href={`/post/${post.slug.current}`}
+                prefetch
+                className="space-y-3 xl:col-span-3"
+              >
                 <div>
                   <h3 className="text-2xl font-blod leading-8 tracking-tight text-gray-900 dark:text-gray-100">
                     {post.title}
